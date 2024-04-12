@@ -1,6 +1,6 @@
 {
   "name": "msa-sa-atm-machine",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "This ATM Machine",
   "main": "index.js",
   "type": "module",
