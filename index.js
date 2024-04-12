@@ -62,10 +62,10 @@ if (atm.pinNumber === pinCode) {
                 console.log(`Now Your Balance Is: ${myBalance}`);
             }
         }
-        else if (operationAnswer.operation === "Check Balance")
-            console.log("Your Balance is:" + myBalance);
     }
-    else {
-        console.log("Please Put Wright Pin Number");
-    }
+    else if (operationAnswer.operation === "Check Balance")
+        console.log("Your Balance is:" + myBalance);
+}
+else {
+    console.log("Please Put Wright Pin Number");
 }
